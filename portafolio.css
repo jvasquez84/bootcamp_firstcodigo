@@ -1,0 +1,47 @@
+.section-works{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding:20px
+}
+
+
+.card div img{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px orange;
+}
+
+.card div img:hover{
+    box-shadow: 15px 5px 5px 5px red;
+    transition: 0.8s;
+}
+
+.text-works{
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container-detail{
+    text-align: center;
+    margin-left: 20px;
+}
+
+.container-detail p {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.container-detail h2 {
+    color:white;
+}
+
+.link-portafolio{
+    text-decoration: none;
+}
+
