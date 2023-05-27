@@ -1,0 +1,252 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    max-width: 960px;
+    margin: auto;
+    height: 100vh;
+}
+
+/* Portada de la web */
+
+.portada{
+    position: relative;
+    height: 525px;
+}
+
+.portada h1 {
+    color: white;
+    position: absolute;
+    left: 40%;
+    top:15%;
+    font-size:3rem;
+}
+
+.portada h2{
+    position: absolute;
+    top: 260px;
+    color: white;
+    padding:20px 8px 20px 20px;
+    left:15%;
+    background: rgba(114, 153, 254, 0.5);
+border-radius: 10px;
+}
+
+/* Seccion Acerca de Mi */
+
+.about-me{
+     background: #7299FE;
+     padding: 30px 50px 50px 50px;
+}
+
+.about-me h2{
+    color: #1D06A7;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2rem;
+}
+
+.about-me p{
+    color:white;
+    line-height: 2;
+    padding-bottom: 40px;
+    font-size: 1rem;
+}
+
+
+.cv{
+    border-radius: 25px;
+    border:0;
+    box-shadow: 0px 2px 0px 2px gray;
+    color:white;
+    text-align: center;
+    padding: 15px 80px 15px 80px;
+    background:#D16FFF;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+
+/* Seccion Herramientas */
+
+
+.myskill{
+    background: #9022FF;
+    padding: 30px 50px 80px 50px;
+}
+
+.myskill h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    color: #26CC4B;
+}
+
+.flex-principal{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.flex-item{
+    width: 50%;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.flex-item h2{
+    color:white;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+.bar{
+    border: 1px #9122FF;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.bar-progress-html{
+    height: 20px;
+    width: 75%;
+    background-color:#57EFF9;
+    border-radius: 10px;
+}
+
+.bar-progress-css{
+    height: 20px;
+    width: 20%;
+    background-color:#57EFF9;
+    border-radius: 10px;
+}
+
+.bar-progress-javascript{
+    height: 20px;
+    width: 50%;
+    background-color:#57EFF9;
+    border-radius: 10px;
+}
+
+.bar-progress-vue{
+    height: 20px;
+    width: 85%;
+    background-color:#57EFF9;
+    border-radius: 10px;
+}
+
+.bar-progress-flexbox{
+    height: 20px;
+    width: 90%;
+    background-color:#57EFF9;
+    border-radius: 10px;
+}
+
+.bar-progress-cssgrid{
+    height: 20px;
+    width: 35%;
+    background-color:#57EFF9;
+    border-radius: 10px;
+}
+
+/* Seccion Portafolio */
+
+
+.portafolio{
+    background: #FFD233;
+    padding: 30px 50px 80px 50px;
+}
+
+.portafolio h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    color: #00AD84;
+}
+
+.flex-principal-img{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-img{
+    flex-direction: column;
+    
+}
+
+/* Seccion Clientes */
+
+.clientes{
+    background: #3F4E62;
+    padding: 30px 50px 80px 50px;
+}
+
+.clientes h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    color: #ADFF28;
+}
+
+.clientes img{
+    padding: 10px;
+}
+
+
+.contacto{
+    background: #1687A0;
+    padding: 30px 50px 50px 50px;
+}
+
+.contacto h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    color: #FF1B1B;
+}
+
+.contacto input {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.flex-item-textarea{
+    width: 100%;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.flex-item-textarea input{
+    height: 120px;
+    vertical-align: text-top;
+}
+
+              
+.flex-items-enviar{
+    width: 100%;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+}
+
+.enviar{
+    text-align: center;
+    border:0;
+    color:white;
+    text-align: center;
+    padding: 15px 80px 15px 80px;
+    background:#233451;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
