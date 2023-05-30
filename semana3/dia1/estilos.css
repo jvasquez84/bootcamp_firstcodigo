@@ -1,0 +1,84 @@
+body {
+  margin: 15px;
+  background-color: rgb(109, 214, 174);
+}
+
+.success {
+  background-color: green;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-family: "Lucida Sans";
+}
+
+.info {
+  background-color: lightblue;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 7rem;
+  font-family: Verdana;
+}
+
+.warning {
+  background-color: orange;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 3rem;
+  font-family: Impact;
+}
+
+.danger {
+  background-color: red;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 2rem;
+  font-family: Arial;
+}
+
+.div-icon-phone {
+  background: url(./img/phone.jpeg);
+  border: solid 2px rgb(252, 135, 140);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  margin: 150px;
+}
+
+.div-icon-mail {
+  background: url(./img/mail.jpeg);
+  border: solid 2px red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  margin: 150px;
+}
+
+.div-icon-search {
+  background: url(./img/search.png);
+  border: solid 2px blue;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  margin: 150px;
+}
+
+.div-icon-laptop {
+  background: url(./img/laptop.png);
+  border: solid 2px yellow;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  margin: 150px;
+}/*# sourceMappingURL=estilos.css.map */

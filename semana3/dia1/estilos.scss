@@ -1,0 +1,56 @@
+@import "./variables.scss";
+
+body{
+    margin: $padding-1;
+    background-color: $color-principal;
+}
+
+//vamos a crear MIXIN
+
+@mixin alertita($bg:red,$color-text:white,$font-size:2rem,$font-family:Arial){
+    background-color: $bg;
+    padding:$padding-1;
+    border-radius: $padding-1;
+    color:$color-text;
+    margin-bottom: $padding-1;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+
+.success{
+    @include alertita($bg:green,$color-text:white,$font-size:1rem,$font-family:'Lucida Sans');
+}
+
+.info{
+    @include alertita($bg:lightblue,$color-text:white,$font-size:7rem,$font-family:Verdana)
+}
+
+.warning{
+    @include alertita($bg:orange,$color-text:white,$font-size:3rem,$font-family:Impact)
+}
+
+.danger{
+    @include alertita
+}
+
+@mixin generate-icons($name,$icon,$color,$size:400px){
+
+    .div-icon-#{$name}{
+        background: url(./img/#{$icon});
+        border: solid 2px $color;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:$size;
+        height: $size;
+        margin: $size/2;
+    }
+}
+
+@include generate-icons("phone","phone.jpeg" ,rgb(252,135,140) ,300px );
+
+@include generate-icons("mail","mail.jpeg" ,red ,300px );
+
+@include generate-icons("search","search.png" ,blue ,300px );
+
+@include generate-icons("laptop","laptop.png" ,yellow ,300px );
