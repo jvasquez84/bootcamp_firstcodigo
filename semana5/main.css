@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Fredoka",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: #1c253f;
+}
+
+.container{
+    margin: 50px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.buscador{
+    width: 80%;
+    /*border: 1px salmon solid;*/
+    padding: 20px 20px;
+}
+
+.buscador h2{
+    color: white;
+    padding-bottom: 10px;
+}
+.buscador div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buscador input{
+    width: 100%;
+    margin-right: 15px;
+    height: 34px;
+    box-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    border-radius: 5px;
+    border:0px;
+}
+.buscador button{
+    padding: 10px;
+    width: 180px;
+    background-color: rgba(0, 0, 255, 0.716);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border:0px;
+}.buscador button:hover{
+    background-color: rgba(0, 0, 255, 0.909);
+}
+
+.card-github{
+    width: 80%;
+    display: flex;
+    padding: 20px;
+    background-color: rgb(34, 50, 107);
+    border-radius:20px;
+}
+
+.grid{
+    display: block;
+}
+
+.grid img {
+    padding-top:8px;
+    width: 120px;
+    height:120px;
+    border-radius: 100%;
+    
+}
+
+.grid-2{
+    padding-left: 20px;
+    display: block;
+    width:100%;
+    color:white;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.row-footer{
+    display: block;
+    flex:auto;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding:20px 0px;
+}
+
+.row h1{
+    padding:8px 20px;
+    font-size: 1.2rem
+}
+
+.enlace{
+    font-size: 0.8rem;
+    color: rgb(13,110,253);
+    font-weight: normal;
+}
+
+.card-insight{
+    margin:10px 30px;
+    border-radius:12px;
+    border: 1px solid rgba(0,0,0,.125);
+    justify-content: left;
+}
+
+.row-col{
+    padding:20px 0px;
+    display: block;
+    flex:auto;
+}
+
+.encabezado{
+    font-weight: normal;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+
+
