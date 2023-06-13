@@ -1,0 +1,30 @@
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1{
+    color:blueviolet;
+}
+
+button{
+    border-radius: 10px;
+    padding: 1rem;
+    margin:2rem;
+    text-align: center;
+    cursor: pointer;
+    border-width: 0;
+}
+
+.si{
+    color:white;
+    background-color: green;
+}
+
+.no{
+    color:white;
+    background-color: red;
+}
+

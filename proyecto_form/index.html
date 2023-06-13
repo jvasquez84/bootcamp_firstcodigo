@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Formularios</title>
+</head>
+<body>
+    <h1>Ingrese sus Datos</h1>
+    <form onsubmit="formDatos(event)">
+        <div>
+            <label for="Ingresa tu nombre"></label>
+            <input type="text" id="nombre">
+        </div>
+        <div>
+            <label for="Ingresa tu Apellido"></label>
+            <input type="text" id="apellido">
+        </div>
+        <div>
+            <label for="Ingresa tu Contraseña"></label>
+            <input type="password" id="pass">
+        </div>
+        <button>Enviar formulario</button>
+    </form>
+
+    <div id="MostrarInfo">
+        <h1>Aqui se va a mostrar la informacion</h1>
+        <span id="dataRecord"></span>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
